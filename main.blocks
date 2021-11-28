@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="C@[rX[**L#_k9(+61YQ7" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="ENqpn2NqgH19MCvd~F1+"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="?wZYAMDGOV`gST7m{r/#" x="226" y="11"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="#G/uFWd$sP2f/SN(Qh_V"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="(Q4SH4O2bzw.~W;-_GvX" x="2" y="318"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_number" id=";j7+1`r/@yq;($@{?(b9"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="djnYI`$qIyKGJ+gmO;NU"><value name="min"><shadow type="math_number" id="GoD8M4hLHJ[K_)~+w;qs"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="D,7_R(;R!`.},5w/M;zm"><field name="NUM">6</field></shadow></value></block></value></block></statement></block></xml>
