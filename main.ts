@@ -16,10 +16,4 @@ input.onGesture(Gesture.Shake, function () {
     }
 })
 let numero = 0
-basic.showLeds(`
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    `)
+basic.showIcon(IconNames.Yes)
