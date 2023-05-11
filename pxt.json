@@ -1,11 +1,11 @@
 {
-    "name": "Dado",
+    "name": "Dado DUA",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "jacdac": "github:microsoft/pxt-jacdac#v0.7.35",
+        "jacdac": "github:microsoft/pxt-jacdac#v1.8.13",
         "IoTLoRaNode": "github:pisupply/pxt-iot-lora-node#v0.1.37"
     },
     "files": [
@@ -17,7 +17,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.16",
+        "target": "5.0.12",
         "targetId": "microbit"
     },
     "supportedTargets": [
