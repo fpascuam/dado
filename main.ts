@@ -8,8 +8,14 @@ input.onButtonPressed(Button.A, function () {
         `)
 })
 input.onGesture(Gesture.Shake, function () {
-    basic.showNumber(randint(1, 6))
+    numero = randint(1, 6)
+    basic.showNumber(numero)
+    for (let index = 0; index < numero; index++) {
+        music.playTone(262, music.beat(BeatFraction.Whole))
+        basic.pause(500)
+    }
 })
+let numero = 0
 basic.showLeds(`
     . . . . .
     . . . . .
